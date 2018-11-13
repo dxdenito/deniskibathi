@@ -1,0 +1,224 @@
+body{
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	
+}
+.navbar{
+	background:black;
+	height:60px;
+	border:none;
+	
+}
+.navbar-default .navbar-brand{
+	color:gold;
+}
+.navbar-default .navbar-nav> li> a {
+	color:gold
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	color:black;
+	background:gold;
+}
+.navbar-default .navbar-nav> li> a:hover {
+	color:black;
+	background:gray;
+}
+#home{
+	margin-top:60px !important;
+	background: url(img/map.png) black no-repeat bottom right;
+	background-size: cover;
+	color: gold;
+	position: relative;
+	height: 500px;
+}
+.intro-text {
+	position: relative;
+	padding-top: 120px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 170px;
+}
+#button{
+	margin-top:100px
+}
+
+.btn-default {
+	color: gold;
+	font-family: 'Open Sans', sans-serif;
+	background: black;
+	border: 2px solid gold;
+	margin: 0 8px;
+	padding: 12px 24px;
+	font-size: 16px;
+	transition: all 0.5s;
+	border-radius: 4px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background: gold;
+	color: black;
+	border: 2px solid white;
+	font-weight:600;
+}
+#pre hr{
+	height: 3px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: black;
+	border: 0;
+	margin: 10px auto 30px;
+}
+#pre a{
+	color:gold;
+}
+#pre i.fa{
+	color:gold;
+}
+.gold{
+	color:gold;
+	font-weight:700;
+}
+.space{
+	height:50px;
+}
+#education{
+	padding-top:60px;
+}
+#edulink{
+	background-color:gold;
+}
+#edulink hr{
+	height: 3px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: black;
+	border: 0;
+	margin: 10px auto 30px;
+}
+#edulink .btn-default {
+	color: gold;
+	font-family: 'Open Sans', sans-serif;
+	background: black;
+	border: 2px solid gold;
+	margin: 0 8px;
+	padding: 12px 24px;
+	font-size: 16px;
+	transition: all 0.5s;
+	border-radius: 4px;
+	margin-left:20%
+}
+ #edulink .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background: gray;
+	color: black;
+	border: 2px solid white;
+	font-weight:600;
+}
+#skillink{
+	background:white;
+}
+#skillink hr{
+	height: 3px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: black;
+	border: 0;
+	margin: 10px auto 30px;
+}
+#skillink .btn-default {
+	color: gold;
+	font-family: 'Open Sans', sans-serif;
+	background: black;
+	border: 2px solid gold;
+	margin: 0 8px;
+	padding: 12px 24px;
+	font-size: 16px;
+	transition: all 0.5s;
+	border-radius: 4px;
+	margin-left:20%
+}
+ #skillink .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background: gray;
+	color: black;
+	border: 2px solid white;
+	font-weight:600;
+}
+#worklink{
+	background:#00a699;
+}
+#worklink h2, a{
+	color:white;
+}
+#worklink hr{
+	height: 3px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: black;
+	border: 0;
+	margin: 10px auto 30px;
+}
+#worklink .btn-default {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	background: white;
+	border: 2px solid gold;
+	margin: 0 8px;
+	padding: 12px 24px;
+	font-size: 16px;
+	transition: all 0.5s;
+	border-radius: 4px;
+	margin-left:20%
+}
+#worklink .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background: gray;
+	color: black;
+	border: 2px solid white;
+	font-weight:600;
+}
+ #skillink .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background: gray;
+	color: black;
+	border: 2px solid white;
+	font-weight:600;
+}
+#skills{
+	padding-top:60px;
+}
+#work{
+	padding-top:60px;
+}
+#work img{
+	width:300px;
+	height:200px;
+}
+#description{
+	padding-top:50px;
+	padding-bottom:30px;
+}
+#footer{
+	background:black;
+	color:gold;
+}
+#footer a{
+	color:white;
+}
+#footer li a{
+	color:gold;
+}
+#footer a:hover{
+	color:gray;
+	text-decoration:none;
+}
+#footer li>a:hover{
+	color:white;
+	text-decoration:none;
+}
+@media (max-width: 603px) {
+#menu.navbar-nav {
+	background: rgba(0, 0, 0, 0.7);
+}
+}
